@@ -1,0 +1,59 @@
+
+
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    margin-top: 5%;
+}
+
+table tbody tr td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 7px 10px;
+    text-align: center;
+    overflow: hidden;
+}
+.form label{
+    display: block;
+}
+.form input, .form .submit {
+    width: 100%;
+    padding: 3px 16px;
+    outline: none;
+    border: none;
+}
+.form select {
+    border: none;
+    width: 100%;
+    padding: 3px 16px;
+}
+.form input, .form label , .form select{
+    margin-bottom: 7px;
+}
+
+.form input[type="text"]:hover, .form input[type="number"]:hover {
+    border-bottom: dotted 1px black;
+}
+
+.form select:active {
+    color: green;
+    border: 1px solid black;
+}
+.form .submit {
+    border: 1px solid black;
+    border-radius: 50px;
+}
+.firstselection .firstselection-label , .firstselection .firstselection-input {
+    margin-right: 10px;
+}
+.firstselection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
