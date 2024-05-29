@@ -1,0 +1,27 @@
+.userform {
+    border: 1px solid red;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.userform input , .userform label {
+    display: block;
+    margin-bottom: 10px;
+}
+.userform input {
+    border: none;
+    padding-left: 9px;
+    border-bottom: 1px solid black;
+}
+.userform a {
+    text-decoration: none;
+    color: rgb(5, 5, 87);
+    margin-bottom: 10px;
+}
+.userform button {
+    border-radius: 50px;
+    margin-top: 10px;
+    display: block;
+}
