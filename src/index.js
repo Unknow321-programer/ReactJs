@@ -5,7 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CrudCustomer from './CRUDCustomer/CrudCustomer';
 import FirstComponent from './Demo/FirstComponent';
-import UserProfile from './UserProfile/UserProfiles';
+import LoginUser from './UserProfile/LoginUser';
+import SignUp from './UserProfile/SignUp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +15,8 @@ root.render(
     {/* <AddressComponent /> */}
     {/* <CrudCustomer /> */}
     {/* <FirstComponent /> */}
-    <UserProfile />
+    {/* <LoginUser /> */}
+    <SignUp />
   </React.StrictMode>
 );
 
