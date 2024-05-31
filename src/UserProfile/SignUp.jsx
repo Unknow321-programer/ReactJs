@@ -14,7 +14,7 @@ const SignUp = () => {
                         <input type='text' name='name' id='name' placeholder='John Deo' />
                     </div>
                     <div>
-                        <label htmlFor='age'>Age</label>
+                        <label htmlFor='age'>dob</label>
                         <input type='date' name='age' id='age' placeholder='DD-MM-YYYY' />
                     </div>
                     <div>

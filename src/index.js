@@ -7,6 +7,7 @@ import CrudCustomer from './CRUDCustomer/CrudCustomer';
 import FirstComponent from './Demo/FirstComponent';
 import LoginUser from './UserProfile/LoginUser';
 import SignUp from './UserProfile/SignUp';
+import UserHome from './UserProfile/UserHome';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +17,8 @@ root.render(
     {/* <CrudCustomer /> */}
     {/* <FirstComponent /> */}
     {/* <LoginUser /> */}
-    <SignUp />
+    {/* <SignUp /> */}
+    <UserHome/>
   </React.StrictMode>
 );
 
