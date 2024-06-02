@@ -16,9 +16,9 @@ root.render(
     {/* <AddressComponent /> */}
     {/* <CrudCustomer /> */}
     {/* <FirstComponent /> */}
-    {/* <LoginUser /> */}
+    <LoginUser />
     {/* <SignUp /> */}
-    <UserHome/>
+    {/* <UserHome/> */}
   </React.StrictMode>
 );
 
